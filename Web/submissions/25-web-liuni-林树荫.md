@@ -12,15 +12,15 @@
 ### 1. 签到题
 * [cite_start]**Flag:** `NSSCTF {We1c0me_t0_WLLMCTF_Th1s_1s_th3_G1ft}` 
 * [cite_start]**解题思路:** 直接查看网页源代码（F12 查看 HTML），Flag 隐藏在注释或标签中。 
-![[屏幕截图 2026-04-12 205043.png]]
+![[1.png]]
 ### 2. 隐藏入口 (secret.php)
 * [cite_start]**Flag:** `NSSCTF {0c659c79-c056-4932-870b-295b483de96d}` [cite_start]**解题思路:** 题目提供 `secret.php`，通过输入框触发回车进入后台，获取账号密码登录后获取 Flag。 
-* ![[屏幕截图 2026-04-12 205302 2.png]]
-* ![[屏幕截图 2026-04-12 205320.png]]
-* ![[屏幕截图 2026-04-12 205412.png]]
+* ![[2.png]]
+* ![[3.png]]
+* ![[4.png]]
 ### 3. 青少年CTF - robots 协议
 * [cite_start]**Flag:** `flag{97fd01137dfe40088cfe1967be421d84}` * [cite_start]**解题思路:** * 访问 `robots.txt` 寻找敏感路径。     * [cite_start]根据提示发起 GET 请求，当参数满足 `?moe=flag` 时返回 Flag。 
-* ![[屏幕截图 2026-04-12 205501.png]]
+* ![[5.png]]
 ---
 
 ## 🛠️ Web 安全工具箱
@@ -29,11 +29,11 @@
 | :--- | :--- |
 | **Hackbar** | [cite_start]从 GitHub 下载免费版，通过 Firefox 插件安装。
 | **Burp Suite** | [cite_start]核心抓包工具，从网上获取。
-![[屏幕截图 2026-04-12 210646.png|609]]
-![[Pasted image 20260412210837.png]]
+![[6.png|609]]
+![[7.png]]
 | **Dirsearch** | [cite_start]目录扫描工具，从 GitHub 官方仓库下载。 
 ---
-![[Pasted image 20260412210952.png]]
+![[8.png]]
 ## 🐧 Linux 系统环境搭建
 1.  [cite_start]**选择发行版**：选择 Ubuntu 官方长期支持版 (LTS)。
 2.  [cite_start]**安装流程**：从 Ubuntu 官网下载镜像，通过虚拟机或物理机安装。
