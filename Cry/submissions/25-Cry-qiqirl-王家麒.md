@@ -1,6 +1,7 @@
 # sage截图
 
-![](<images/Week 1-2dfcf14c-904e-4295-aa18-c008ebcf905e.png>)
+<img width="899" height="117" alt="2dfcf14c-904e-4295-aa18-c008ebcf905e" src="https://github.com/user-attachments/assets/6ae57c2c-b441-44c0-8b00-989e956add65" />
+
 
 # 1. eeeeez\_rsa
 
